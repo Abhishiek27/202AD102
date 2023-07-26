@@ -1,0 +1,40 @@
+import React from "react"
+
+
+const Home =() =>{
+    return (
+        <div>
+            
+            
+        <div style={{ margin: '100px' }}><nav style={{backgroundColor:"ButtonFace", backgroundImage:"url('railway.png')"  }} >
+            <ul>
+            <li><a href="#">HOME</a></li>
+            <li> <a href="#">TRAINS</a></li>
+            <li><a href="#">ABOUT</a> </li>
+            <li> <a href="#">YOUR PROFILE</a> </li>
+                </ul>
+             
+        </nav>
+    
+        <img src="https://e1.pxfuel.com/desktop-wallpaper/369/966/desktop-wallpaper-9-indian-train-railway-train.jpg" style={{width: '1400px',  height: '600px' }}/>
+        
+        </div>
+        <h1 style={{textAlign: "center", fontFamily:"times new roman", backgroundColor:"Background" }}>RAILWAY TICKET BOOKING</h1>
+        <div><label> First Name :  <input type="text" name="name" /> </label></div>
+        <div><label> Last Name :  <input type="text" name="name" /> </label></div>
+        <div><label> Current Place :  <input type="text" name="name" /> </label></div>
+        <div><label> Destination Place :  <input type="text" name="name" /> </label></div>
+       
+      </div>
+    )
+
+}
+export default Home
+
+
+
+
+
+
+
+
